@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { FaInstagram, FaFacebook, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
 import './Contact.css';
 

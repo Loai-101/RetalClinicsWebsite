@@ -5,19 +5,16 @@ import {
   FaTooth,
   FaSmile,
   FaStethoscope,
-  FaUserMd,
   FaHeartbeat,
   FaShieldAlt,
   FaTools,
   FaChild,
-  FaUserNurse,
   FaInstagram,
   FaWhatsapp,
   FaCrown,
   FaFlask,
   FaBandAid,
-  FaTeeth,
-  FaLaugh
+  FaTeeth
 } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
 import './Services.css';
