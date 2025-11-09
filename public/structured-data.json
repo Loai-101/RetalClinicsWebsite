@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Retal clinics",
+  "description": "Professional dental care services in Bahrain. Expert dental clinic providing comprehensive dental treatments including dental implants, cosmetic dentistry, teeth whitening, and smile restoration.",
+  "url": "https://expophysiotherapy.com",
+  "logo": "https://res.cloudinary.com/dvybb2xnc/image/upload/w_512,h_512,c_fill,r_max/v1762684308/Screenshot_2025-11-09_133136_zgpuja.png",
+  "image": "https://res.cloudinary.com/dvybb2xnc/image/upload/w_512,h_512,c_fill,r_max/v1762684308/Screenshot_2025-11-09_133136_zgpuja.png",
+  "telephone": "+97317001160",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Villa 160, Road 66, Block 362",
+    "addressLocality": "New zinj",
+    "addressRegion": "Manama",
+    "addressCountry": "BH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 26.0667,
+    "longitude": 50.5853
+  },
+  "openingHours": [
+    "Mo-Th 09:00-21:00",
+    "Sa 09:00-21:00",
+    "Fr 00:00-00:00"
+  ],
+  "priceRange": "$$",
+  "paymentAccepted": ["Cash", "Credit Card", "Insurance"],
+  "currenciesAccepted": "BHD",
+  "medicalSpecialty": "Dentistry",
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "Dental Implants",
+      "description": "Natural-looking, long-lasting dental implants for missing teeth restoration"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Cosmetic Dentistry",
+      "description": "Hollywood smile, porcelain veneers, teeth whitening, and smile design"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Pediatric Dentistry",
+      "description": "Gentle dental care for children, ensuring healthy teeth and positive experience"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Root Canal Treatment",
+      "description": "Painless root canal therapy to save infected or damaged teeth"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Orthodontics",
+      "description": "Braces and clear aligners to correct misaligned teeth and bite issues"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Dental Cleaning & Polishing",
+      "description": "Professional cleaning to remove plaque, tartar, and stains"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Dental Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dental Consultation",
+          "description": "Comprehensive dental examination and treatment planning"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dental Implants",
+          "description": "Permanent solution for missing teeth with natural-looking implants"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Emergency Dental Care",
+          "description": "24/7 emergency dental services"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.instagram.com/retalclinics",
+    "https://www.tiktok.com/@retalclinics"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "Bahrain"
+  },
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.0667,
+      "longitude": 50.5853
+    },
+    "geoRadius": "50000"
+  }
+}

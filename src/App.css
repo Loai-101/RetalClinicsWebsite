@@ -1,0 +1,174 @@
+/* Global App Styles */
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fluid media defaults */
+img,
+video,
+svg,
+canvas,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Ensure videos cover containers where needed */
+.hero-video,
+.services-hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Body styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  color: #333333;
+  background: transparent;
+}
+
+/* Main App container */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  padding-top: 0; /* Default no padding for desktop */
+  background: transparent;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+  animation: fadeInContent 0.5s ease-in;
+}
+
+@keyframes fadeInContent {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-content.content-visible {
+  animation: fadeInContent 0.5s ease-in;
+}
+
+/* Hide main content completely during loading */
+.App {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+/* Page containers */
+.services-page,
+.team-page,
+.contact-page,
+.insurance-page {
+  min-height: 100vh; /* Default full height for desktop */
+  /* Background is set in individual page CSS files */
+}
+
+.home-page {
+  min-height: 100vh; /* Default full height for desktop */
+  /* Background is set in Home.css */
+}
+
+/* Desktop/PC specific - keep original behavior */
+@media (min-width: 1367px) {
+  .main-content {
+    padding-top: 80px; /* Account for fixed header on desktop */
+  }
+  
+  .home-page,
+  .services-page,
+  .team-page,
+  .contact-page,
+  .appointment-page {
+    min-height: calc(100vh - 80px);
+  }
+}
+
+/* Code font for any code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+a:focus {
+  outline: 2px solid #D99A3A;
+  outline-offset: 2px;
+}
+
+/* iPad Specific Fixes */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main-content {
+    padding-top: 80px !important;
+  }
+  
+  .home-page,
+  .services-page,
+  .team-page,
+  .contact-page,
+  .appointment-page {
+    min-height: calc(100vh - 80px) !important;
+  }
+}
+
+/* iPad Pro and larger tablets */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .main-content {
+    padding-top: 80px !important;
+  }
+  
+  .home-page,
+  .services-page,
+  .team-page,
+  .contact-page,
+  .appointment-page {
+    min-height: calc(100vh - 80px) !important;
+  }
+}
+
+/* Mobile responsive - remove gap between header and hero */
+@media (max-width: 767px) {
+  .main-content {
+    padding-top: 0 !important;
+  }
+  
+  .home-page,
+  .services-page,
+  .team-page,
+  .contact-page,
+  .appointment-page {
+    min-height: 100vh !important;
+  }
+}
