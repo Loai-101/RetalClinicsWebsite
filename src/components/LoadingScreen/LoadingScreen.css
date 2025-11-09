@@ -22,7 +22,7 @@
 
 .loading-content {
   text-align: center;
-  color: white;
+  color: black;
   animation: slideInUp 0.8s ease-out 0.3s both;
   display: flex;
   flex-direction: column;
@@ -61,7 +61,8 @@
   margin: 0;
   font-family: 'Georgia', serif;
   letter-spacing: 0.5px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: black;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
   animation: fadeInUp 0.8s ease-out 0.7s both;
   white-space: nowrap;
   overflow: visible;
