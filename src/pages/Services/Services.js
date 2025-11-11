@@ -2,20 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { 
-  FaTooth,
-  FaSmile,
-  FaStethoscope,
-  FaHeartbeat,
-  FaShieldAlt,
-  FaTools,
-  FaChild,
   FaInstagram,
   FaWhatsapp,
-  FaEnvelope,
-  FaCrown,
-  FaFlask,
-  FaBandAid,
-  FaTeeth
+  FaEnvelope
 } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
 import './Services.css';
