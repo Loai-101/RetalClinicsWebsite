@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
 import './Team.css';
 
@@ -194,6 +194,14 @@ const Team = () => {
                 title="Contact us on WhatsApp"
               >
                 <FaWhatsapp />
+              </a>
+              
+              <a 
+                href="mailto:Retalclinics@gmail.com"
+                className="team-hero-social-icon"
+                title="Email us"
+              >
+                <FaEnvelope />
               </a>
             </div>
           </div>
