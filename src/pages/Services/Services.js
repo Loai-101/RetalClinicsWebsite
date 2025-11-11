@@ -11,6 +11,7 @@ import {
   FaChild,
   FaInstagram,
   FaWhatsapp,
+  FaEnvelope,
   FaCrown,
   FaFlask,
   FaBandAid,
@@ -130,7 +131,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690107/2_xfceb6.png"
         }
       ],
-      icon: <FaTooth />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839771/1_dp3kcm.png"
     },
     {
       id: 2,
@@ -195,7 +196,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
         }
       ],
-      icon: <FaSmile />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839849/15_c2nwdt.png"
     },
     {
       id: 3,
@@ -260,7 +261,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
         }
       ],
-      icon: <FaCrown />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839807/8_qsvswm.png"
     },
     {
       id: 4,
@@ -325,7 +326,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
         }
       ],
-      icon: <FaCrown />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839787/4_sdpluu.png"
     },
     {
       id: 5,
@@ -366,7 +367,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690117/3_bx3vnz.png"
         }
       ],
-      icon: <FaSmile />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839795/5_gxs6h5.png"
     },
     {
       id: 6,
@@ -429,7 +430,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
         }
       ],
-      icon: <FaFlask />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839838/13_qizu5o.png"
     },
     {
       id: 7,
@@ -494,7 +495,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
         }
       ],
-      icon: <FaTools />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839838/13_qizu5o.png"
     },
     {
       id: 8,
@@ -537,7 +538,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690091/1_swdxn0.png"
         }
       ],
-      icon: <FaTeeth />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839819/10_e1nqbc.png"
     },
     {
       id: 9,
@@ -578,7 +579,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690117/3_bx3vnz.png"
         }
       ],
-      icon: <FaShieldAlt />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839823/11_ogqpdm.png"
     },
     {
       id: 10,
@@ -632,7 +633,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690091/1_swdxn0.png"
         }
       ],
-      icon: <FaStethoscope />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839813/9_cizxrc.png"
     },
     {
       id: 11,
@@ -673,7 +674,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690107/2_xfceb6.png"
         }
       ],
-      icon: <FaCrown />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839776/2_lhnqby.png"
     },
     {
       id: 12,
@@ -714,7 +715,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690107/2_xfceb6.png"
         }
       ],
-      icon: <FaTooth />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839857/16_iezzbj.png"
     },
     {
       id: 13,
@@ -757,7 +758,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
         }
       ],
-      icon: <FaChild />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839861/17_wwngwr.png"
     },
     {
       id: 14,
@@ -822,7 +823,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
         }
       ],
-      icon: <FaBandAid />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839844/14_rcbkqj.png"
     },
     {
       id: 15,
@@ -865,7 +866,7 @@ const Services = () => {
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
         }
       ],
-      icon: <FaHeartbeat />
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762839781/3_njtyas.png"
     }
   ];
 
@@ -937,6 +938,14 @@ const Services = () => {
               >
                 <FaWhatsapp />
               </a>
+              
+              <a 
+                href="mailto:Retalclinics@gmail.com"
+                className="services-social-icon"
+                title="Email us"
+              >
+                <FaEnvelope />
+              </a>
             </div>
           </div>
         </div>
@@ -973,7 +982,15 @@ const Services = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="service-icon">
-                  <span className="service-icon-text">{service.icon}</span>
+                  {service.iconImage ? (
+                    <img 
+                      src={service.iconImage} 
+                      alt={service.name && service.name[currentLanguage] ? service.name[currentLanguage] : service.name?.en || 'Service'}
+                      className="service-icon-image"
+                    />
+                  ) : (
+                    <span className="service-icon-text">{service.icon}</span>
+                  )}
                 </div>
                 
                 <div className="service-content">

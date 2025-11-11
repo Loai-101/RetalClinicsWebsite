@@ -6,11 +6,11 @@ FormSubmit is a service that allows you to send form data directly to your email
 ## How It Works
 1. User fills out the appointment form
 2. Form data is sent directly to FormSubmit
-3. FormSubmit sends a formatted email to `expo.physiotherapy@gmail.com`
+3. FormSubmit sends a formatted email to `Retalclinics@gmail.com`
 4. No email client windows open - everything happens in the background
 
 ## Current Configuration
-- **Email Address**: `expo.physiotherapy@gmail.com`
+- **Email Address**: `Retalclinics@gmail.com`
 - **Service**: FormSubmit (https://formsubmit.co/)
 - **Template**: Table format for easy reading
 - **Subject**: "New Appointment Request - Retal clinics"
@@ -56,7 +56,7 @@ language: English
 1. Go to the appointment page
 2. Fill out the form with test data
 3. Click "Request Appointment"
-4. Check your email at `expo.physiotherapy@gmail.com`
+4. Check your email at `Retalclinics@gmail.com`
 5. You should receive a formatted email within seconds
 
 ## Troubleshooting

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaInstagram, FaMapMarkerAlt, FaPhone, FaClock, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaMapMarkerAlt, FaPhone, FaClock, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import { useLanguage } from '../../contexts/LanguageContext';
 import './Footer.css';
 
@@ -150,6 +150,13 @@ const Footer = () => {
               title="Follow on Instagram"
             >
               <FaInstagram />
+            </a>
+            <a 
+              href="mailto:Retalclinics@gmail.com"
+              className="footer-contact-icon"
+              title="Email us"
+            >
+              <FaEnvelope />
             </a>
           </div>
         </div>

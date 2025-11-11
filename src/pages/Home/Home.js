@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
 import './Home.css';
 
@@ -199,6 +199,14 @@ const Home = () => {
                 title="Contact us on WhatsApp"
               >
                 <FaWhatsapp />
+              </a>
+              
+              <a 
+                href="mailto:Retalclinics@gmail.com"
+                className="hero-social-icon"
+                title="Email us"
+              >
+                <FaEnvelope />
               </a>
             </div>
           </div>

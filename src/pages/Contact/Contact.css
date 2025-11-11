@@ -138,6 +138,10 @@
   animation-delay: 0.4s;
 }
 
+.contact-social-icon:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
 .contact-social-icon:hover {
   background: #E8A84A;
   border-color: #E8A84A;

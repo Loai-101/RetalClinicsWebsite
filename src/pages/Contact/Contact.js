@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
 import './Contact.css';
 
@@ -45,7 +45,8 @@ const Contact = () => {
       contact: {
         title: "Contact Information",
         phone: "+97317001160",
-        whatsapp: "+97338831160"
+        whatsapp: "+97338831160",
+        email: "Retalclinics@gmail.com"
       },
       hours: {
         title: "Working Hours",
@@ -81,7 +82,8 @@ const Contact = () => {
       contact: {
         title: "معلومات التواصل",
         phone: "+97317001160",
-        whatsapp: "+97338831160"
+        whatsapp: "+97338831160",
+        email: "Retalclinics@gmail.com"
       },
       hours: {
         title: "ساعات العمل",
@@ -160,6 +162,14 @@ const Contact = () => {
               >
                 <FaWhatsapp />
               </a>
+              
+              <a 
+                href="mailto:Retalclinics@gmail.com"
+                className="contact-social-icon"
+                title="Email us"
+              >
+                <FaEnvelope />
+              </a>
             </div>
           </div>
         </div>
@@ -200,6 +210,9 @@ const Contact = () => {
                       </a><br />
                       <a href={`https://wa.me/${content[language].contact.whatsapp.replace('+', '')}`} className="contact-link">
                         💬 {content[language].contact.whatsapp}
+                      </a><br />
+                      <a href={`mailto:${content[language].contact.email}`} className="contact-link">
+                        ✉️ {content[language].contact.email}
                       </a>
                     </div>
                   </div>
