@@ -47,20 +47,20 @@ const Team = () => {
         ar: "أخصائي زراعة الأسنان وطبيب أسنان تجميل"
       },
       experience: {
-        en: "15+ years",
-        ar: "أكثر من 15 سنة"
+        en: "9 years",
+        ar: "9 سنوات"
       },
       specialty: {
         en: "Dental Implants & Cosmetic Dentistry",
         ar: "زراعة الأسنان وطب الأسنان التجميلي"
       },
       specialties: {
-        en: ["Dental Implants", "Cosmetic Dentistry", "Porcelain Veneers", "Teeth Whitening", "Smile Design", "Full Mouth Rehabilitation"],
-        ar: ["زراعة الأسنان", "طب الأسنان التجميلي", "قشور خزفية", "تبييض الأسنان", "تصميم الابتسامة", "إعادة تأهيل الفم الكامل"]
+        en: ["Dental Implant", "Cosmetic Dentistry (Veneers)", "Laser Dentistry", "Biomimetic Fillings", "Root Canal Treatment", "Extraction", "Teeth Whitening"],
+        ar: ["زراعة الأسنان", "طب الأسنان التجميلي (قشور)", "طب الأسنان بالليزر", "حشوات بيوميمتيك", "علاج قناة الجذر", "خلع الأسنان", "تبييض الأسنان"]
       },
       description: {
-        en: "Highly experienced in dental implants and cosmetic dentistry with over 15 years of practice. Specializes in creating beautiful, natural-looking smiles using advanced techniques and premium materials.",
-        ar: "يتمتع بخبرة واسعة في زراعة الأسنان وطب الأسنان التجميلي لأكثر من 15 عامًا. متخصص في إنشاء ابتسامات جميلة وطبيعية المظهر باستخدام تقنيات متقدمة ومواد عالية الجودة."
+        en: "With 9 years of experience, Dr. Ahmed combines expertise in implants, dental lasers, and cosmetic dentistry to create healthy, beautiful smiles. Passionate about veneers and smile makeovers, Dr. Ahmed helps every patient feel confident and cared for.",
+        ar: "مع 9 سنوات من الخبرة، يجمع د. أحمد بين الخبرة في الزراعة وأشعة الليزر وطب الأسنان التجميلي لإنشاء ابتسامات صحية وجميلة. شغوف بقشور الأسنان وتحويلات الابتسامة، يساعد د. أحمد كل مريض على الشعور بالثقة والرعاية."
       },
       image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690091/1_swdxn0.png"
     },
@@ -131,22 +131,50 @@ const Team = () => {
         ar: "أخصائي صحة أسنان وطبيب أسنان تجميل"
       },
       experience: {
-        en: "7+ years",
-        ar: "أكثر من 7 سنوات"
+        en: "5+ years",
+        ar: "أكثر من 5 سنوات"
       },
       specialty: {
         en: "Dental Hygiene & Cosmetic Dentistry",
         ar: "صحة الأسنان وطب الأسنان التجميلي"
       },
       specialties: {
-        en: ["Teeth Whitening", "Dental Cleaning & Polishing", "Preventive Care", "Oral Hygiene", "Cosmetic Procedures", "Fluoride Treatment"],
-        ar: ["تبييض الأسنان", "تنظيف وتلميع الأسنان", "الرعاية الوقائية", "نظافة الفم", "الإجراءات التجميلية", "علاج الفلورايد"]
+        en: ["Teeth Whitening", "Periodontal Treatments", "Prevention Care", "Prevention Instructions"],
+        ar: ["تبييض الأسنان", "علاجات اللثة", "الرعاية الوقائية", "تعليمات الوقاية"]
       },
       description: {
-        en: "Experienced dental hygienist and cosmetic dentist with 7+ years of practice. Specializes in professional dental cleaning, teeth whitening, and preventive care to help patients achieve and maintain healthy, bright smiles.",
-        ar: "أخصائي صحة أسنان وطبيب أسنان تجميل ذو خبرة مع أكثر من 7 سنوات من الممارسة. متخصص في التنظيف المهني للأسنان وتبييض الأسنان والرعاية الوقائية لمساعدة المرضى على تحقيق والحفاظ على ابتسامات صحية ومشرقة."
+        en: "Advanced experience in periodontal treatments and protective care with over 5 years of practice. Specializes in prevention methods and treatments to create healthy smiles using oral hygiene instructions and habits.",
+        ar: "خبرة متقدمة في علاجات اللثة والرعاية الوقائية مع أكثر من 5 سنوات من الممارسة. متخصص في طرق الوقاية والعلاجات لإنشاء ابتسامات صحية باستخدام تعليمات وعادات نظافة الفم."
       },
       image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690117/3_bx3vnz.png"
+    },
+    {
+      id: 5,
+      name: {
+        en: "Dr. Soorya",
+        ar: "د. سوريا"
+      },
+      jobTitle: {
+        en: "Orthodontist",
+        ar: "أخصائي تقويم الأسنان"
+      },
+      experience: {
+        en: "14+ years",
+        ar: "أكثر من 14 سنة"
+      },
+      specialty: {
+        en: "Orthodontics",
+        ar: "تقويم الأسنان"
+      },
+      specialties: {
+        en: ["Metal Braces", "Ceramic Braces", "Damon Braces", "Clear Aligners", "Growth Modifications", "Surgical Orthodontics", "Temporary Anchorage Devices", "Interdisciplinary Orthodontics"],
+        ar: ["تقويم معدني", "تقويم خزفي", "تقويم دامون", "تقويم شفاف", "تعديلات النمو", "تقويم جراحي", "أجهزة التثبيت المؤقتة", "تقويم متعدد التخصصات"]
+      },
+      description: {
+        en: "Experienced orthodontist specialised in tooth alignment and jaw irregularities. Obtained her Masters in Orthodontics and Dentofacial Orthopedics from KUHS, India, and Fellowship in Orthodontics from RCS, Edinburgh. Skilled in conventional orthodontics, clear aligners, damon system, myofunctional and orthopedic appliances.",
+        ar: "أخصائي تقويم أسنان ذو خبرة متخصص في محاذاة الأسنان وعدم انتظام الفك. حصلت على درجة الماجستير في تقويم الأسنان وتقويم الوجه والفكين من KUHS، الهند، وزمالة في تقويم الأسنان من RCS، إدنبرة. ماهرة في تقويم الأسنان التقليدي، والتقويم الشفاف، ونظام دامون، وأجهزة العضلات الوظيفية وتقويم العظام."
+      },
+      image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1763019602/5_tzehwb.png"
     }
   ];
 
