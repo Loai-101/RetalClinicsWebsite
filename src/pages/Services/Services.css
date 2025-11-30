@@ -117,10 +117,10 @@
   justify-content: center;
   width: 50px;
   height: 50px;
-  background: rgba(232, 168, 74, 0.15);
-  border: 2px solid #E8A84A;
+  background: rgba(212, 180, 131, 0.15);
+  border: 2px solid #D4B483;
   border-radius: 50%;
-  color: #E8A84A;
+  color: #D4B483;
   text-decoration: none;
   font-size: 1.2rem;
   transition: all 0.3s ease;
@@ -145,10 +145,10 @@
 }
 
 .services-social-icon:hover {
-  background: #E8A84A;
-  border-color: #E8A84A;
+  background: #D4B483;
+  border-color: #D4B483;
   transform: translateY(-5px) scale(1.1);
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.5);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.5);
   color: white;
   text-decoration: none;
   animation: none;
@@ -184,10 +184,10 @@
 }
 
 .services-hero-button-primary {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: white;
   border: 2px solid transparent;
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.3);
 }
 
 .services-hero-button-primary:hover {
@@ -196,10 +196,10 @@
 }
 
 .services-hero-button-secondary {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: black;
   border: 2px solid transparent;
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.3);
 }
 
 .services-hero-button-secondary:hover {
@@ -591,7 +591,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: linear-gradient(135deg, #C88A2A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #A8875A 0%, #B8965F 100%);
   padding: 0.5rem 1rem;
   border-radius: 25px;
   box-shadow: 0 4px 15px rgba(34, 197, 94, 0.3);
@@ -632,7 +632,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #E8A84A, #D99A3A);
+  background: linear-gradient(90deg, #D4B483, #B8965F);
   border-radius: 2px;
 }
 
@@ -661,7 +661,7 @@
 
 /* Moving Services Bar */
 .moving-services-bar {
-  background: linear-gradient(135deg, #E8A84A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #D4B483 0%, #B8965F 100%);
   padding: 1rem 0;
   overflow: hidden;
   white-space: nowrap;
@@ -836,7 +836,7 @@
 
 .services-hero-button-primary {
   background: white;
-  color: #C88A2A;
+  color: #A8875A;
 }
 
 .services-hero-button-primary:hover {
@@ -852,13 +852,13 @@
 
 .services-hero-button-secondary:hover {
   background: white;
-  color: #C88A2A;
+  color: #A8875A;
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .contact-button {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: white;
   border: 2px solid transparent;
   padding: 1rem 2rem;
@@ -869,7 +869,7 @@
   transition: all 0.4s ease;
   display: inline-block;
   cursor: pointer;
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -890,9 +890,9 @@
 }
 
 .contact-button:hover {
-  background: linear-gradient(135deg, #D99A3A, #E8A84A);
+  background: linear-gradient(135deg, #B8965F, #D4B483);
   transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 12px 35px rgba(232, 168, 74, 0.5);
+  box-shadow: 0 12px 35px rgba(212, 180, 131, 0.5);
   border-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -997,12 +997,12 @@
 .service-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  border-color: #E8A84A;
+  border-color: #D4B483;
 }
 
 /* Active service card */
 .service-card-active {
-  border-color: #D99A3A;
+  border-color: #B8965F;
   box-shadow: 0 20px 40px rgba(22, 163, 74, 0.2);
 }
 
@@ -1017,7 +1017,7 @@
 .service-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1122,7 +1122,7 @@
 
 .feature-item::before {
   content: '•';
-  color: #D99A3A;
+  color: #B8965F;
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -1222,7 +1222,7 @@
 .service-popup-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1267,13 +1267,13 @@
   padding: 1rem;
   background: linear-gradient(135deg, #f8f9ff 0%, #f3e5f5 100%);
   border-radius: 12px;
-  border-left: 4px solid #E8A84A;
+  border-left: 4px solid #D4B483;
 }
 
 .provider-title {
   font-size: 1rem;
   font-weight: 600;
-  color: #E8A84A;
+  color: #D4B483;
   margin: 0 0 0.5rem 0;
 }
 
@@ -1309,7 +1309,7 @@
   padding: 0.75rem 1rem;
   background: #f8f9fa;
   border-radius: 8px;
-  border-left: 3px solid #E8A84A;
+  border-left: 3px solid #D4B483;
   font-size: 0.95rem;
   color: #2d3748;
   transition: all 0.3s ease;
@@ -1322,7 +1322,7 @@
 
 .more-treatments {
   font-style: italic;
-  color: #E8A84A !important;
+  color: #D4B483 !important;
   font-weight: 500;
 }
 
@@ -1331,7 +1331,7 @@
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #D99A3A;
+  border-left: 4px solid #B8965F;
 }
 
 /* Doctors title */
@@ -1383,12 +1383,12 @@
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #E8A84A;
+  border: 3px solid #D4B483;
   transition: all 0.3s ease;
 }
 
 .doctor-item:hover .doctor-avatar {
-  border-color: #D99A3A;
+  border-color: #B8965F;
   transform: scale(1.05);
 }
 
@@ -1412,7 +1412,7 @@
 .service-popup-doctors .doctor-item .doctor-info .doctor-name {
   font-size: 1rem;
   font-weight: 600;
-  color: #D99A3A !important;
+  color: #B8965F !important;
   display: block;
   white-space: nowrap;
   overflow: hidden;
@@ -1427,7 +1427,7 @@
 .service-popup-doctors .doctor-item .doctor-info .doctor-specialty {
   font-size: 0.85rem;
   font-weight: 500;
-  color: #E8A84A !important;
+  color: #D4B483 !important;
   display: block !important;
   white-space: nowrap;
   overflow: hidden;
@@ -1443,7 +1443,7 @@
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #E8A84A;
+  border-left: 4px solid #D4B483;
 }
 
 /* Responsive design for tablets */
@@ -1832,7 +1832,7 @@
 .doctor-name-new {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #D99A3A !important;
+  color: #B8965F !important;
   margin: 0 0 0.5rem 0;
   line-height: 1.3;
   white-space: normal;
@@ -1846,7 +1846,7 @@
 .doctor-specialty-new {
   font-size: 1rem;
   font-weight: 500;
-  color: #E8A84A !important;
+  color: #D4B483 !important;
   margin: 0;
   line-height: 1.4;
   opacity: 1 !important;

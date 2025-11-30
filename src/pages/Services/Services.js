@@ -1073,10 +1073,10 @@ const Services = () => {
                             />
                           </div>
                           <div className="doctor-content-new">
-                            <h5 className="doctor-name-new" style={{color: '#D99A3A', fontSize: '1.2rem', fontWeight: '700', display: 'block', visibility: 'visible', opacity: '1'}}>
+                            <h5 className="doctor-name-new" style={{color: '#B8965F', fontSize: '1.2rem', fontWeight: '700', display: 'block', visibility: 'visible', opacity: '1'}}>
                               {doctor.name && doctor.name[currentLanguage] ? doctor.name[currentLanguage] : 'Doctor Name'}
                             </h5>
-                            <p className="doctor-specialty-new" style={{color: '#E8A84A', fontSize: '1rem', fontWeight: '500', display: 'block', visibility: 'visible', opacity: '1'}}>
+                            <p className="doctor-specialty-new" style={{color: '#D4B483', fontSize: '1rem', fontWeight: '500', display: 'block', visibility: 'visible', opacity: '1'}}>
                               {doctor.specialty && doctor.specialty[currentLanguage] ? doctor.specialty[currentLanguage] : 'Specialty'}
                             </p>
                           </div>

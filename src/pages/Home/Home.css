@@ -152,10 +152,10 @@
   justify-content: center;
   width: 50px;
   height: 50px;
-  background: rgba(232, 168, 74, 0.15);
-  border: 2px solid #E8A84A;
+  background: rgba(212, 180, 131, 0.15);
+  border: 2px solid #D4B483;
   border-radius: 50%;
-  color: #E8A84A;
+  color: #D4B483;
   text-decoration: none;
   font-size: 1.2rem;
   transition: all 0.3s ease;
@@ -189,10 +189,10 @@
 }
 
 .hero-social-icon:hover {
-  background: #E8A84A;
-  border-color: #E8A84A;
+  background: #D4B483;
+  border-color: #D4B483;
   transform: translateY(-5px) scale(1.1);
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.5);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.5);
   color: white;
   text-decoration: none;
   animation: none;
@@ -240,10 +240,10 @@
 }
 
 .hero-button-primary {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: white;
   border: 2px solid transparent;
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.3);
 }
 
 .hero-button-primary:hover {
@@ -252,10 +252,10 @@
 }
 
 .hero-button-secondary {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: black;
   border: 2px solid transparent;
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.3);
 }
 
 .hero-button-secondary:hover {
@@ -315,13 +315,13 @@
 
 .stat-item:hover {
   transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 15px 50px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 15px 50px rgba(212, 180, 131, 0.3);
 }
 
 .stat-number {
   font-size: 3rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -418,9 +418,9 @@
   transform: translateX(-50%);
   width: 100px;
   height: 5px;
-  background: linear-gradient(90deg, #E8A84A, #D99A3A, #E8A84A);
+  background: linear-gradient(90deg, #D4B483, #B8965F, #D4B483);
   border-radius: 3px;
-  box-shadow: 0 2px 10px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 2px 10px rgba(212, 180, 131, 0.3);
 }
 
 .about-subtitle {
@@ -492,7 +492,7 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #E8A84A, #D99A3A);
+  background: linear-gradient(90deg, #D4B483, #B8965F);
   border-radius: 2px;
 }
 
@@ -510,8 +510,8 @@
   position: relative;
   background: linear-gradient(135deg, #f8f9ff 0%, #f3e5f5 100%);
   border-radius: 24px;
-  border-left: 6px solid #E8A84A;
-  border-right: 6px solid #D99A3A;
+  border-left: 6px solid #D4B483;
+  border-right: 6px solid #B8965F;
   box-shadow: 
     0 20px 60px rgba(106, 27, 154, 0.15),
     0 8px 25px rgba(0, 0, 0, 0.1),
@@ -527,7 +527,7 @@
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   border-radius: 26px;
   z-index: -1;
   opacity: 0.1;
@@ -623,7 +623,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #E8A84A, #D99A3A);
+  background: linear-gradient(90deg, #D4B483, #B8965F);
 }
 
 .about-feature:hover {
@@ -638,11 +638,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   border-radius: 50%;
   color: white;
   margin-bottom: 1.5rem;
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.3);
   transition: all 0.3s ease;
   overflow: hidden;
   animation: rotateIn 0.8s ease-out;
@@ -668,7 +668,7 @@
 
 .about-feature:hover .about-feature-icon {
   transform: scale(1.1);
-  box-shadow: 0 12px 35px rgba(232, 168, 74, 0.4);
+  box-shadow: 0 12px 35px rgba(212, 180, 131, 0.4);
 }
 
 .about-feature-content {
@@ -737,7 +737,7 @@
 .about-stat-number {
   font-size: 2.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -757,7 +757,7 @@
 
 /* Moving Text Bar Styles */
 .moving-text-section {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   padding: 1rem 0;
   overflow: hidden;
   position: relative;
@@ -1217,8 +1217,8 @@
     font-size: 1.2rem;
     padding: 2rem 1.5rem;
     margin: 2rem 0;
-    border-left: 4px solid #E8A84A;
-    border-right: 4px solid #D99A3A;
+    border-left: 4px solid #D4B483;
+    border-right: 4px solid #B8965F;
   }
   
   .about-feature {
@@ -1353,7 +1353,7 @@
 
 /* Call to Action Section Styles */
 .cta-section {
-  background: linear-gradient(135deg, #C88A2A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #A8875A 0%, #B8965F 100%);
   padding: 4rem 0;
   color: white;
   text-align: center;
@@ -1411,7 +1411,7 @@
 
 .cta-button-primary {
   background: #ffffff;
-  color: #D99A3A;
+  color: #B8965F;
   border-color: #ffffff;
 }
 
@@ -1431,7 +1431,7 @@
 
 .cta-button-secondary:hover {
   background: #ffffff;
-  color: #D99A3A;
+  color: #B8965F;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
 }

@@ -24,7 +24,7 @@
   font-weight: 700;
   color: #2c3e50;
   margin: 0 0 1rem 0;
-  background: linear-gradient(135deg, #2c3e50 0%, #E8A84A 100%);
+  background: linear-gradient(135deg, #2c3e50 0%, #D4B483 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -61,7 +61,7 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   transition: all 0.3s ease;
-  border: 1px solid rgba(232, 168, 74, 0.1);
+  border: 1px solid rgba(212, 180, 131, 0.1);
   animation: fadeInUp 0.6s ease-out both;
   opacity: 0;
   transform: translateY(30px);
@@ -109,7 +109,7 @@
 
 .faq-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(232, 168, 74, 0.15);
+  box-shadow: 0 8px 30px rgba(212, 180, 131, 0.15);
 }
 
 /* FAQ Question */
@@ -121,7 +121,7 @@
   align-items: center;
   background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
   transition: all 0.3s ease;
-  border-bottom: 1px solid rgba(232, 168, 74, 0.1);
+  border-bottom: 1px solid rgba(212, 180, 131, 0.1);
 }
 
 .faq-question:hover {
@@ -141,7 +141,7 @@
 .faq-icon {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #E8A84A;
+  color: #D4B483;
   transition: all 0.3s ease;
   width: 30px;
   height: 30px;
@@ -149,13 +149,13 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: rgba(232, 168, 74, 0.1);
+  background: rgba(212, 180, 131, 0.1);
   animation: scaleIn 0.5s ease-out 0.3s both;
 }
 
 .faq-icon.open {
   transform: rotate(180deg);
-  background: linear-gradient(135deg, #E8A84A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #D4B483 0%, #B8965F 100%);
   color: white;
 }
 
@@ -178,7 +178,7 @@
   line-height: 1.7;
   margin: 0;
   padding-top: 1rem;
-  border-top: 1px solid rgba(232, 168, 74, 0.1);
+  border-top: 1px solid rgba(212, 180, 131, 0.1);
 }
 
 /* FAQ Contact Section */
@@ -187,8 +187,8 @@
   border-radius: 20px;
   padding: 2.5rem;
   text-align: center;
-  box-shadow: 0 8px 30px rgba(232, 168, 74, 0.1);
-  border: 1px solid rgba(232, 168, 74, 0.1);
+  box-shadow: 0 8px 30px rgba(212, 180, 131, 0.1);
+  border: 1px solid rgba(212, 180, 131, 0.1);
   background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
   animation: slideInFromBottom 0.8s ease-out 1.2s both;
 }
@@ -198,7 +198,7 @@
   font-weight: 700;
   color: #2c3e50;
   margin: 0 0 1rem 0;
-  background: linear-gradient(135deg, #2c3e50 0%, #E8A84A 100%);
+  background: linear-gradient(135deg, #2c3e50 0%, #D4B483 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -244,27 +244,27 @@
 }
 
 .faq-contact-btn.primary {
-  background: linear-gradient(135deg, #E8A84A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #D4B483 0%, #B8965F 100%);
   color: white;
-  box-shadow: 0 4px 15px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 4px 15px rgba(212, 180, 131, 0.3);
 }
 
 .faq-contact-btn.primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(232, 168, 74, 0.4);
+  box-shadow: 0 6px 20px rgba(212, 180, 131, 0.4);
 }
 
 .faq-contact-btn.secondary {
   background: transparent;
-  color: #E8A84A;
-  border: 2px solid #E8A84A;
+  color: #D4B483;
+  border: 2px solid #D4B483;
 }
 
 .faq-contact-btn.secondary:hover {
-  background: linear-gradient(135deg, #E8A84A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #D4B483 0%, #B8965F 100%);
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 6px 20px rgba(212, 180, 131, 0.3);
 }
 
 /* Responsive Design */

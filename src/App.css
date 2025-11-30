@@ -124,7 +124,7 @@ html {
 /* Focus styles for accessibility */
 button:focus,
 a:focus {
-  outline: 2px solid #D99A3A;
+  outline: 2px solid #B8965F;
   outline-offset: 2px;
 }
 

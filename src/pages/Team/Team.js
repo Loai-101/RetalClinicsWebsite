@@ -71,24 +71,24 @@ const Team = () => {
         ar: "د. عبدالله إبراهيم"
       },
       jobTitle: {
-        en: "Prosthodontist & Dental Implant Specialist",
-        ar: "أخصائي التعويضات السنية وأخصائي زراعة الأسنان"
+        en: "Dental Implant Specialist & Cosmetic Dentist",
+        ar: "أخصائي زراعة الأسنان وطبيب أسنان تجميل"
       },
       experience: {
         en: "12+ years",
         ar: "أكثر من 12 سنة"
       },
       specialty: {
-        en: "Prosthodontics & Dental Implants",
-        ar: "التعويضات السنية وزراعة الأسنان"
+        en: "Laser Dentistry & Dental Implants",
+        ar: "طب الأسنان بالليزر وزراعة الأسنان"
       },
       specialties: {
-        en: ["Dental Implants", "Crowns & Bridges", "Dentures", "Full Mouth Reconstruction", "Zircon Crowns", "Dental Prosthetics"],
-        ar: ["زراعة الأسنان", "التيجان والجسور", "أطقم الأسنان", "إعادة بناء الفم الكامل", "تيجان زركون", "التعويضات السنية"]
+        en: ["Dental Implants", "Cosmetic Dentistry", "Veneers", "Root Canal Treatments", "Laser Dentistry"],
+        ar: ["زراعة الأسنان", "طب الأسنان التجميلي", "قشور خزفية", "علاج قناة الجذر", "طب الأسنان بالليزر"]
       },
       description: {
-        en: "Expert in prosthodontics and dental implants with 12+ years of experience. Known for precision work in crowns, bridges, and full mouth rehabilitation, helping patients restore their smiles and oral function.",
-        ar: "خبير في التعويضات السنية وزراعة الأسنان مع أكثر من 12 عامًا من الخبرة. معروف بعمله الدقيق في التيجان والجسور وإعادة تأهيل الفم الكامل، مما يساعد المرضى على استعادة ابتسامتهم ووظيفة الفم."
+        en: "Experienced and have professional diplomas in Root canal, cosmetic dentistry and dental implants. Specialized in Laser dentistry and dental implants.",
+        ar: "ذو خبرة وحاصل على دبلومات مهنية في علاج قناة الجذر وطب الأسنان التجميلي وزراعة الأسنان. متخصص في طب الأسنان بالليزر وزراعة الأسنان."
       },
       image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690107/2_xfceb6.png"
     },
@@ -103,20 +103,20 @@ const Team = () => {
         ar: "طبيب أسنان أطفال، طبيب أسنان عام وجراح فم"
       },
       experience: {
-        en: "10+ years",
-        ar: "أكثر من 10 سنوات"
+        en: "11 years",
+        ar: "11 سنة"
       },
       specialty: {
-        en: "Pediatric Dentistry, General Dentistry & Oral Surgery",
-        ar: "طب أسنان الأطفال، طب الأسنان العام وجراحة الفم"
+        en: "Cosmetic Dentistry, Laser Dentistry & Biomimetic Dentistry",
+        ar: "طب الأسنان التجميلي، طب الأسنان بالليزر وطب الأسنان البيوميمتيكي"
       },
       specialties: {
-        en: ["Pediatric Dentistry", "General Dentistry", "Tooth Extraction", "Root Canal Treatment", "Emergency Dental Care", "Oral Surgery", "Children's Dental Care", "Preventive Dentistry"],
-        ar: ["طب أسنان الأطفال", "طب الأسنان العام", "خلع الأسنان", "علاج جذور الأسنان", "الرعاية الطارئة للأسنان", "جراحة الفم", "رعاية أسنان الأطفال", "طب الأسنان الوقائي"]
+        en: ["Cosmetic dentistry (veneers)", "Laser dentistry", "Biomimetic fillings", "Root canal treatment", "Extraction", "Teeth whitening"],
+        ar: ["طب الأسنان التجميلي (قشور)", "طب الأسنان بالليزر", "حشوات بيوميمتيك", "علاج قناة الجذر", "خلع الأسنان", "تبييض الأسنان"]
       },
       description: {
-        en: "Versatile dentist with 10+ years of experience specializing in pediatric dentistry, general dentistry, and oral surgery. Provides comprehensive dental care for patients of all ages, from children to adults, with expertise in emergency treatments and surgical procedures.",
-        ar: "طبيب أسنان متعدد التخصصات مع أكثر من 10 سنوات من الخبرة متخصص في طب أسنان الأطفال وطب الأسنان العام وجراحة الفم. يقدم رعاية أسنان شاملة للمرضى من جميع الأعمار، من الأطفال إلى البالغين، مع خبرة في العلاجات الطارئة والإجراءات الجراحية."
+        en: "With 11 years of clinical excellence, Dr. Azhar blends advanced expertise in dental lasers, and cosmetic dentistry to craft natural, long-lasting, and beautifully balanced smiles. Renowned for a refined approach to veneers and smile makeovers, Dr. Azhar is dedicated to delivering exceptional results with a patient-centered experience that feels comfortable, confident, and truly personalized.",
+        ar: "مع 11 عامًا من التميز السريري، يجمع د. أزهار بين الخبرة المتقدمة في أجهزة الليزر وطب الأسنان التجميلي لصياغة ابتسامات طبيعية ودائمة ومتوازنة بشكل جميل. معروف بمنهج متقن في القشور وتحويلات الابتسامة، د. أزهار ملتزم بتقديم نتائج استثنائية مع تجربة تركز على المريض تشعر بالراحة والثقة والشخصية حقًا."
       },
       image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762690124/4_ihev83.png"
     },

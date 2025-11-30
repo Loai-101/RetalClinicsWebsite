@@ -113,7 +113,7 @@ const Contact = () => {
       <section className="contact-hero">
         <div className="contact-hero-video">
           <img
-            src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1762689739/Banner_dxn8j6.png"
+            src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1763020711/Banner_eipuho.png"
             alt="Contact Hero"
             className="hero-video"
           />

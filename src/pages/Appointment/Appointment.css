@@ -33,14 +33,14 @@
   border-radius: 20px;
   padding: 3rem;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(232, 168, 74, 0.1);
+  border: 1px solid rgba(212, 180, 131, 0.1);
   animation: slideInFromLeft 0.8s ease-out;
 }
 
 .appointment-form-title {
   font-size: 2.5rem;
   font-weight: bold;
-  background: linear-gradient(135deg, #D99A3A, #C88A2A);
+  background: linear-gradient(135deg, #B8965F, #A8875A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -130,8 +130,8 @@
 .form-select:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #E8A84A;
-  box-shadow: 0 0 0 3px rgba(232, 168, 74, 0.1);
+  border-color: #D4B483;
+  box-shadow: 0 0 0 3px rgba(212, 180, 131, 0.1);
 }
 
 .form-input::placeholder,
@@ -152,7 +152,7 @@
 }
 
 .form-submit-button {
-  background: linear-gradient(135deg, #E8A84A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #D4B483 0%, #B8965F 100%);
   color: white;
   border: none;
   padding: 1.2rem 3rem;
@@ -161,15 +161,15 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 4px 15px rgba(212, 180, 131, 0.3);
   margin-top: 1rem;
   animation: slideInFromBottom 0.8s ease-out 1.2s both;
 }
 
 .form-submit-button:hover:not(:disabled) {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.4);
-  background: linear-gradient(135deg, #D99A3A 0%, #E8A84A 100%);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.4);
+  background: linear-gradient(135deg, #B8965F 0%, #D4B483 100%);
 }
 
 .form-submit-button:disabled {
@@ -220,7 +220,7 @@
   border-radius: 20px;
   padding: 2rem;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(232, 168, 74, 0.1);
+  border: 1px solid rgba(212, 180, 131, 0.1);
   animation: fadeInUp 0.8s ease-out both;
   opacity: 0;
 }
@@ -235,7 +235,7 @@
 
 .sidebar-title {
   font-size: 1.8rem;
-  color: #D99A3A;
+  color: #B8965F;
   margin-bottom: 1.5rem;
   font-weight: 600;
   text-align: center;
@@ -254,12 +254,12 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background: rgba(232, 168, 74, 0.05);
+  background: rgba(212, 180, 131, 0.05);
   border-radius: 12px;
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease;
-  border: 1px solid rgba(232, 168, 74, 0.1);
+  border: 1px solid rgba(212, 180, 131, 0.1);
   animation: fadeInLeft 0.6s ease-out both;
   opacity: 0;
 }
@@ -273,9 +273,9 @@
 }
 
 .contact-method:hover {
-  background: rgba(232, 168, 74, 0.1);
+  background: rgba(212, 180, 131, 0.1);
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(232, 168, 74, 0.2);
+  box-shadow: 0 4px 15px rgba(212, 180, 131, 0.2);
 }
 
 .contact-icon {
@@ -289,7 +289,7 @@
 
 .contact-method strong {
   display: block;
-  color: #D99A3A;
+  color: #B8965F;
   font-size: 1rem;
   margin-bottom: 0.25rem;
 }
@@ -306,9 +306,9 @@
   color: #6c757d;
   margin: 0;
   padding: 1rem;
-  background: rgba(232, 168, 74, 0.05);
+  background: rgba(212, 180, 131, 0.05);
   border-radius: 8px;
-  border: 1px solid rgba(232, 168, 74, 0.1);
+  border: 1px solid rgba(212, 180, 131, 0.1);
 }
 
 /* Expectation List */
@@ -320,7 +320,7 @@
 
 .expectation-item {
   padding: 0.75rem 0;
-  border-bottom: 1px solid rgba(232, 168, 74, 0.1);
+  border-bottom: 1px solid rgba(212, 180, 131, 0.1);
   color: #5a6c7d;
   font-size: 1rem;
   line-height: 1.5;
@@ -359,7 +359,7 @@
   position: absolute;
   left: 0;
   top: 0.75rem;
-  color: #E8A84A;
+  color: #D4B483;
   font-weight: bold;
   font-size: 1.1rem;
 }
@@ -973,7 +973,7 @@
 }
 
 .success-popup-button {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: white;
   border: none;
   padding: 1rem 2.5rem;
@@ -982,14 +982,14 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 4px 15px rgba(212, 180, 131, 0.3);
   min-width: 120px;
 }
 
 .success-popup-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.4);
-  background: linear-gradient(135deg, #D99A3A, #E8A84A);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.4);
+  background: linear-gradient(135deg, #B8965F, #D4B483);
 }
 
 /* Animations */

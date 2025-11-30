@@ -1,7 +1,7 @@
 /* Team Page Styles */
 .team-page {
   min-height: 100vh;
-  background: url('https://res.cloudinary.com/dvybb2xnc/image/upload/v1762237594/Screenshot_2025-11-04_092618_w0av1d.png') center center / cover no-repeat fixed;
+  background: linear-gradient(135deg, #faf9f7 0%, #f8f7f5 100%);
   position: relative;
 }
 
@@ -92,10 +92,10 @@
 }
 
 .team-hero-button-primary {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: white;
   border: 2px solid transparent;
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.3);
 }
 
 .team-hero-button-primary:hover {
@@ -104,10 +104,10 @@
 }
 
 .team-hero-button-secondary {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: black;
   border: 2px solid transparent;
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.3);
 }
 
 .team-hero-button-secondary:hover {
@@ -130,10 +130,10 @@
   justify-content: center;
   width: 50px;
   height: 50px;
-  background: rgba(232, 168, 74, 0.15);
-  border: 2px solid #E8A84A;
+  background: rgba(212, 180, 131, 0.15);
+  border: 2px solid #D4B483;
   border-radius: 50%;
-  color: #E8A84A;
+  color: #D4B483;
   text-decoration: none;
   transition: all 0.3s ease;
   font-size: 1.2rem;
@@ -158,10 +158,10 @@
 }
 
 .team-hero-social-icon:hover {
-  background: #E8A84A;
-  border-color: #E8A84A;
+  background: #D4B483;
+  border-color: #D4B483;
   transform: translateY(-5px) scale(1.1);
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.5);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.5);
   color: white;
   text-decoration: none;
   animation: none;
@@ -260,8 +260,8 @@
   padding: 2rem 0;
   overflow: hidden;
   position: relative;
-  border-top: 3px solid #D99A3A;
-  border-bottom: 3px solid #D99A3A;
+  border-top: 3px solid #B8965F;
+  border-bottom: 3px solid #B8965F;
   animation: slideInFromBottom 0.8s ease-out;
 }
 
@@ -275,7 +275,7 @@
 .insurance-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #D99A3A;
+  color: #B8965F;
   margin: 0 0 2rem 0;
   text-align: center;
   font-family: 'Georgia', serif;
@@ -377,7 +377,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #E8A84A, #D99A3A);
+  background: linear-gradient(90deg, #D4B483, #B8965F);
   border-radius: 2px;
 }
 
@@ -404,10 +404,10 @@
   justify-content: center;
   width: 50px;
   height: 50px;
-  background: rgba(232, 168, 74, 0.15);
-  border: 2px solid #E8A84A;
+  background: rgba(212, 180, 131, 0.15);
+  border: 2px solid #D4B483;
   border-radius: 50%;
-  color: #E8A84A;
+  color: #D4B483;
   text-decoration: none;
   font-size: 1.2rem;
   transition: all 0.3s ease;
@@ -441,10 +441,10 @@
 }
 
 .team-social-icon:hover {
-  background: #E8A84A;
-  border-color: #E8A84A;
+  background: #D4B483;
+  border-color: #D4B483;
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(232, 168, 74, 0.5);
+  box-shadow: 0 8px 25px rgba(212, 180, 131, 0.5);
   color: white;
   text-decoration: none;
 }
@@ -471,7 +471,7 @@
   padding: 0;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease;
-  border: 2px solid #E8A84A;
+  border: 2px solid #D4B483;
   cursor: pointer;
   text-align: center;
   position: relative;
@@ -514,7 +514,7 @@
   left: 8px;
   right: 8px;
   bottom: 8px;
-  border: 1px solid rgba(232, 168, 74, 0.3);
+  border: 1px solid rgba(212, 180, 131, 0.3);
   border-radius: 12px;
   pointer-events: none;
   z-index: 1;
@@ -522,13 +522,13 @@
 
 .doctor-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(232, 168, 74, 0.3);
-  border-color: #D99A3A;
+  box-shadow: 0 20px 40px rgba(212, 180, 131, 0.3);
+  border-color: #B8965F;
   border-width: 4px;
 }
 
 .doctor-card:hover::before {
-  border-color: rgba(232, 168, 74, 0.6);
+  border-color: rgba(212, 180, 131, 0.6);
   border-width: 2px;
 }
 
@@ -598,7 +598,7 @@
   line-height: 1.2;
   text-align: center;
   position: relative;
-  background: linear-gradient(135deg, #2c3e50 0%, #E8A84A 100%);
+  background: linear-gradient(135deg, #2c3e50 0%, #D4B483 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -613,7 +613,7 @@
 
 .doctor-card:hover .doctor-name {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #E8A84A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #D4B483 0%, #B8965F 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -622,7 +622,7 @@
 /* Doctor specialty */
 .doctor-specialty {
   font-size: 0.8rem;
-  color: #D99A3A;
+  color: #B8965F;
   font-weight: 600;
   margin: 0;
   line-height: 1.2;
@@ -630,7 +630,7 @@
   padding: 0.4rem 0.8rem;
   background: linear-gradient(135deg, #f8f9ff 0%, #f3e5f5 100%);
   border-radius: 16px;
-  border: 1px solid rgba(232, 168, 74, 0.2);
+  border: 1px solid rgba(212, 180, 131, 0.2);
   transition: all 0.3s ease;
   font-family: 'Arial', sans-serif;
   letter-spacing: 0.2px;
@@ -641,10 +641,10 @@
 }
 
 .doctor-card:hover .doctor-specialty {
-  background: linear-gradient(135deg, #E8A84A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #D4B483 0%, #B8965F 100%);
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 4px 15px rgba(212, 180, 131, 0.3);
 }
 
 /* Doctor popup overlay */
@@ -758,7 +758,7 @@
 /* Popup specialty */
 .popup-specialty {
   font-size: 1.2rem;
-  color: #D99A3A;
+  color: #B8965F;
   font-weight: 600;
   margin: 0;
 }
@@ -775,7 +775,7 @@
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #D99A3A;
+  border-left: 4px solid #B8965F;
 }
 
 .popup-experience h4 {
@@ -797,7 +797,7 @@
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #E8A84A;
+  border-left: 4px solid #D4B483;
 }
 
 .popup-description h4 {
@@ -819,7 +819,7 @@
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #E8A84A;
+  border-left: 4px solid #D4B483;
 }
 
 .popup-specialties h4 {
@@ -837,7 +837,7 @@
 }
 
 .specialty-tag {
-  background: linear-gradient(135deg, #E8A84A, #D99A3A);
+  background: linear-gradient(135deg, #D4B483, #B8965F);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -850,7 +850,7 @@
 
 .specialty-tag:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(232, 168, 74, 0.3);
+  box-shadow: 0 4px 12px rgba(212, 180, 131, 0.3);
 }
 
 /* Popup skills */
@@ -1318,7 +1318,7 @@
 
 /* Team Call to Action Section Styles */
 .team-cta-section {
-  background: linear-gradient(135deg, #E8A84A 0%, #D99A3A 100%);
+  background: linear-gradient(135deg, #D4B483 0%, #B8965F 100%);
   padding: 4rem 0;
   color: white;
   text-align: center;
@@ -1376,7 +1376,7 @@
 
 .team-cta-button-primary {
   background: #ffffff;
-  color: #D99A3A;
+  color: #B8965F;
   border-color: #ffffff;
 }
 
@@ -1396,7 +1396,7 @@
 
 .team-cta-button-secondary:hover {
   background: #ffffff;
-  color: #D99A3A;
+  color: #B8965F;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
 }

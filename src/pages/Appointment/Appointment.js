@@ -63,7 +63,7 @@ const Appointment = () => {
       ],
       doctors: [
         "Dr. Ahmed Riyadh - Dental Implant Specialist & Cosmetic Dentist",
-        "Dr. Abdullah Ibrahim - Prosthodontist & Dental Implant Specialist",
+        "Dr. Abdullah Ibrahim - Dental Implant Specialist & Cosmetic Dentist",
         "Dr. Azhar Alaradi - Pediatric Dentist, General Dentist & Oral Surgeon",
         "Ahmed Al Mubarak - Dental Hygienist & Cosmetic Dentist",
         "Dr. Soorya - Orthodontist"
@@ -132,7 +132,7 @@ const Appointment = () => {
       ],
       doctors: [
         "د. أحمد رياض - أخصائي زراعة الأسنان وطبيب أسنان تجميل",
-        "د. عبدالله إبراهيم - أخصائي التعويضات السنية وأخصائي زراعة الأسنان",
+        "د. عبدالله إبراهيم - أخصائي زراعة الأسنان وطبيب أسنان تجميل",
         "د. أزهار الراضي - طبيب أسنان أطفال، طبيب أسنان عام وجراح فم",
         "أحمد المبارك - أخصائي صحة أسنان وطبيب أسنان تجميل",
         "د. سوريا - أخصائي تقويم الأسنان"
