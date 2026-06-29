@@ -8,10 +8,12 @@ import FAQ from './pages/FAQ/FAQ';
 import Team from './pages/Team/Team';
 import Contact from './pages/Contact/Contact';
 import Appointment from './pages/Appointment/Appointment';
+import SiteHold from './pages/SiteHold/SiteHold';
 import ScrollToTop from './components/ScrollToTop';
 import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 import SocialSidebar from './components/SocialSidebar/SocialSidebar';
 import { LanguageProvider } from './contexts/LanguageContext';
+import { SITE_HOLD_ENABLED } from './config/siteConfig';
 import './App.css';
 
 // Wrapper component that can use useLocation
@@ -90,6 +92,13 @@ function AppContent() {
 }
 
 function App() {
+  if (SITE_HOLD_ENABLED) {
+    return (
+      <LanguageProvider>
+        <SiteHold />
+      </LanguageProvider>
+    );
+  }
 
   return (
     <LanguageProvider>
